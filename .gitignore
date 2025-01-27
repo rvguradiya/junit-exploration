@@ -1,0 +1,48 @@
+# Ignore build directories for Maven and Gradle
+/target/
+/build/
+
+# Ignore IDE directories and project files
+/.idea/
+/.vscode/
+/*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore JUnit test reports and logs
+/test-logs/
+/test-reports/
+
+# Ignore generated files (such as compiled class files)
+/*.class
+
+# Ignore Maven Wrapper files (if not needed)
+mvnw
+mvnw.cmd
+/.mvn/
+
+# Ignore Gradle Wrapper files (if not needed)
+gradlew
+gradlew.bat
+/gradle/
+
+# Ignore Java properties or other sensitive data
+*.properties
+
+# Ignore .env or other environment config files (if any)
+.env
+
+# Ignore dependency directories if using local dependency management
+/lib/
+/libs/
+
+# Ignore generated JAR files
+*.jar
+*.war
+*.ear
+
+# Ignore other common system files
+*.log
+*.bak
